@@ -67,49 +67,60 @@
 
     <!-- Glossary Entries! -->
     <section id="glossary" class="toggle">
-      <dl class="eight columns ">
+      <article>
+        <h3 class="sixteen columns">General Motion Design Terms</h3>
+        <dl class="eight columns ">
 
-        <dt><h4>Animatic</h4></dt>
-          <dd>taking keyframes from the storyboard and editing and displaying them in sequence with a rough dialogue and/or rough sound track to test whether the sound and images are working effectively together</dd>
+          <dt><h4>Animatic</h4></dt>
+            <dd>taking keyframes from the storyboard and editing and displaying them in sequence with a rough dialogue and/or rough sound track to test whether the sound and images are working effectively together</dd>
+  
+          <dt><h4>Blocking</h4></dt>
+            <dd>putting in basic timing and poses to communicate where one is going with an animated scene</dd>
+  
+          <dt><h4>Deep Time</h4></dt>
+            <dd>the idea of Geological Time; time scales not easily graspable through terms of human lifetimes, or even the span of human history</dd>
+  
+          <dt><h4>Interpolation</h4></dt>
+            <dd>a message that is introduced or inserted &mdash; often a viewer does this themselves into something you&rsquo;ve created</dd>
+  
+          <dt><h4>Staging</h4></dt>
+            <dd>selecting, designing, adapting to, or modifying the performance space; the look of the performance; the result of this process, in other words the spectacle that a play presents in performance, its visual detail. (for GD purposes &ldquo;performance&rdquo; refers to the animations and content contained in the motion graphic itself)</dd>
+  
+        </dl>
+  
+        <dl class="eight columns ">
+  
+          <dt><h4>Anticipation</h4></dt>
+            <dd>something expected (as on the basis of a norm); or the act of predicting</dd>
+  
+          <dt><h4>Breaking Down a shot</h4></dt>
+            <dd>carefully explaining, step by step, what happens in a scene &mdash; part of storyboarding (or reverse storyboarding)</dd>
+  
+          <dt><h4>Exaggeration</h4></dt>
+            <dd>representing something as far better or worse than it really is (or far greater, smaller, longer, shorter, faster, slower, farther, nearer … whatever)</dd>
+  
+          <dt><h4>Narrative</h4></dt>
+            <dd>an acount; a tale; a story</dd>
+  
+          <dt><h4>Temporal</h4></dt>
+            <dd>of, pertaining to, limited by, or generally dealing with time</dd>
+  
+        </dl>
 
-        <dt><h4>Blocking</h4></dt>
-          <dd>putting in basic timing and poses to communicate where one is going with an animated scene</dd>
-
-        <dt><h4>Deep Time</h4></dt>
-          <dd>the idea of Geological Time; time scales not easily graspable through terms of human lifetimes, or even the span of human history</dd>
-
-        <dt><h4>Narrative</h4></dt>
-          <dd>an acount; a tale; a story</dd>
-
-        <dt><h4>Temporal</h4></dt>
-          <dd>of, pertaining to, limited by, or generally dealing with time</dd>
-
-      </dl>
-
-      <dl class="eight columns ">
-
-        <dt><h4>Animatic</h4></dt>
-          <dd>taking keyframes from the storyboard and editing and displaying them in sequence with a rough dialogue and/or rough sound track to test whether the sound and images are working effectively together</dd>
-
-        <dt><h4>Blocking</h4></dt>
-          <dd>putting in basic timing and poses to communicate where one is going with an animated scene</dd>
-
-        <dt><h4>Deep Time</h4></dt>
-          <dd>the idea of Geological Time; time scales not easily graspable through terms of human lifetimes, or even the span of human history</dd>
-
-        <dt><h4>Narrative</h4></dt>
-          <dd>an acount; a tale; a story</dd>
-
-        <dt><h4>Temporal</h4></dt>
-          <dd>of, pertaining to, limited by, or generally dealing with time</dd>
-
-      </dl>
-
-      <br class="clear add-top"/>
-
+        <br class="clear add-top"/>
+      </article>
     </section>
     <!-- /END Glossary Entries! -->
     
+    <hr/>
+    
+    <section>
+      <article class="sixteen columns add-bottom">
+        <h3 class="add-top">Some More Film Vocab</h3>
+        <a href="http://cla.calpoly.edu/~smarx/courses/Vocabulary.html">Shakespeare on Page, Stage, and Screen &mdash; Steven Marx</a>
+      </article>
+    </section>
+
     <hr/>
     
     <!-- FOOTER -->
@@ -131,10 +142,10 @@
   <script>
 
     $(document).ready(function() {
-       $("section.toggle > dl > dd").hide();
+       $("section.toggle dl > dd").hide();
      });
      
-    $("section.toggle > dl > dt > h4").click(function () {
+    $("section.toggle dl > dt > h4").click(function () {
       $(this).parent().next("dd").toggle("slow");
       });
 
