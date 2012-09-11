@@ -66,14 +66,17 @@
     <hr />
 
     <!-- Glossary Entries! -->
-    <section id="mainclass" class="toggle">
-      <dl class="eight columns add-bottom">
+    <section id="glossary" class="toggle">
+      <dl class="eight columns ">
 
         <dt><h4>Animatic</h4></dt>
           <dd>taking keyframes from the storyboard and editing and displaying them in sequence with a rough dialogue and/or rough sound track to test whether the sound and images are working effectively together</dd>
 
         <dt><h4>Blocking</h4></dt>
           <dd>putting in basic timing and poses to communicate where one is going with an animated scene</dd>
+
+        <dt><h4>Deep Time</h4></dt>
+          <dd>the idea of Geological Time; time scales not easily graspable through terms of human lifetimes, or even the span of human history</dd>
 
         <dt><h4>Narrative</h4></dt>
           <dd>an acount; a tale; a story</dd>
@@ -82,6 +85,28 @@
           <dd>of, pertaining to, limited by, or generally dealing with time</dd>
 
       </dl>
+
+      <dl class="eight columns ">
+
+        <dt><h4>Animatic</h4></dt>
+          <dd>taking keyframes from the storyboard and editing and displaying them in sequence with a rough dialogue and/or rough sound track to test whether the sound and images are working effectively together</dd>
+
+        <dt><h4>Blocking</h4></dt>
+          <dd>putting in basic timing and poses to communicate where one is going with an animated scene</dd>
+
+        <dt><h4>Deep Time</h4></dt>
+          <dd>the idea of Geological Time; time scales not easily graspable through terms of human lifetimes, or even the span of human history</dd>
+
+        <dt><h4>Narrative</h4></dt>
+          <dd>an acount; a tale; a story</dd>
+
+        <dt><h4>Temporal</h4></dt>
+          <dd>of, pertaining to, limited by, or generally dealing with time</dd>
+
+      </dl>
+
+      <br class="clear add-top"/>
+
     </section>
     <!-- /END Glossary Entries! -->
     
@@ -114,10 +139,10 @@
       });
 
     $("nav ul.expand-collapse li.expand span").click(function () {
-      $("section.toggle > article").show("slow");
+      $("section.toggle > dl > dd").show("slow");
       });
     $("nav ul.expand-collapse li.collapse span").click(function () {
-      $("section.toggle > article").hide("slow");
+      $("section.toggle > dl > dd").hide("slow");
       });
       
   </script>
