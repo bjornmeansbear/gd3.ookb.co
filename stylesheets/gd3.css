@@ -133,6 +133,15 @@ section.toggle h2:hover,
   cursor: pointer;
 }
 
+section.toggle h2:hover,
+section.toggle dl dt h4:hover {
+  cursor: pointer;
+}
+
+section.toggle dl dt h4:hover {
+  color: #A8A8A8
+}
+
 nav {
   background: #848478;
   height: 25px;
