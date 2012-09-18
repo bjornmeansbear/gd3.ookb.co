@@ -111,6 +111,11 @@ article h3  {
   text-transform: uppercase;
 }
 
+article ol {
+  margin: 0 0 0 4px;
+  padding: 0;
+}
+
 .stricken {
   text-decoration: line-through;
 }
