@@ -105,23 +105,45 @@
     <hr/>
     
     <!-- Animated Word info -->
-    <section id="reversesb" class="toggle open">
+    <section id="animatedword" class="toggle open">
       <h2 class="sixteen columns">the Animated Word</h2><h4 class="sixteen columns add-bottom">Due: 10/30/2012</h4>
 
       <article class="one-third column">
         <h3>General info</h3>
-        <p>TK</p>
+        <p>This project is about using time and motion as emotive and descriptive forces. How does one make the design and animation of a thing define it?</p>
+        <ol>There are two main components to this:
+          <li>a 32 page booklet</li>
+          <li>an animation</li>
+        </ol>
+        <p>The booklet is an opportunity to explore ideas, type, design directions, etc. This is what will start the project off. It is sort of a cross between ideation and story-board. The end goal here is to still convey the meaning of an action verb in a printed form.</p>
+        <p>The animation has the same goal: show an action verbs definition through design; but now you have the advantage of getting to animate!</p>
+        <p>Think of these two works as companion pieces — two sides of one coin.</p>
       </article>
 
       <article class="one-third column">
         <h3>Criteria</h3>
+        <h3>For the Booklet</h3>
         <ol>
-          <li>TK</li>
-        </ol>  
+          <li>Choose an action verb from the provided list.</li>
+          <li>Look up the word in your dictionary of choice.</li>
+          <li>Choose one of the definitions for that verb.</li>
+          <li>Make a 32 page booklet that helps us to understand your action verb and its definition through typographic exercise and other graphic means.</li>
+        </ol>
+        <p>Treat this as a design piece of its own, but also a tool to help test and experiment with graphic means of conveying motion and emotion.</p>
+        <h3>For the Animation</h3>
+        <ol>
+          <li>Using the same verb and definition from the booklet, animate said verb using After effects so that the animation techniques/styles visually explain the definition. (If you are against using after effects for some reason, one of the other animation methods we've discussed may also be used …)</li>
+        </ol>
+        <p>Easy.</p>
+        <p>There isn’t a duration or any other sort of requirement other than you succeed in using the animation techniques we’ve worked on in class thus far, use a single action verb, and do a good job of animating your word so that the class can figure out the definition you’ve chosen. Feel free to include the definition in the animation. Using minimal palette, simple type, basic graphic forms — if any — and focussing your energies on making sure your animation is well crafted and truly embody your word will be to your benefit.</p>
+</p>
       </article>
 
-      <article class="one-third column">
-        <h3>Action Verbs</h3>
+      <article class="one-third column verbs">
+        <h3>Choosing Action Verbs</h3>
+        <p>Action verbs are something that a person or thing can do may be used alone as the main verb of a sentence e.g. run, jump, reach, swim, walked, fell etc. Action verbs can also be actions you can't see such as 'thought' or 'wanted' Action verbs can be time-telling verbs. They tell when something takes place - in the present, in the future or in the past.</p>
+        <p>I've made a list of quite a few of them that I think should be animate-able … Please choose one from there, and find a definition for it. Some of these words are not just verbs — like Spell you can cast a spell, you can vacation for a spell, or you can spell a word. The first two uses are nouns, not verbs, so when you are looking for its definition, make sure you pick the definition for spell as a verb, not as a noun… e.g.: to name, write, or otherwise give the letters, in order, of a word NOT a word, phrase, or form of words supposed to have magic power NOR a continuous course or period of work or other activity … make sense?</p>
+        <h3 class="action">Action Verbs</h3>
         <ul>
           <li>animate</li>
           <li>assault</li>
@@ -209,6 +231,7 @@
           <li>yield</li>
           <li>zip</li>
         </ul>
+        <p class="small">Click to show</p>
       </article>
       
       <br class="clear add-top"/>
@@ -235,6 +258,7 @@
   <script>
     $(document).ready(function() {
        $("section.toggle > article").hide();
+       $("article.verbs > ul").hide();
      });
      
     $(document).ready(function() {
@@ -243,6 +267,10 @@
 
     $("section.toggle h2").click(function () {
       $(this).parent().children("article").toggle("slow");
+      });    
+
+    $("article.verbs h3.action").click(function () {
+      $(this).next("ul").toggle("slow");
       });    
 
     $("nav ul.expand-collapse li.expand span").click(function () {
