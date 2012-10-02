@@ -134,6 +134,10 @@ section.toggle h2:hover,
   color: #848478;
 }
 
+section.blue h2 {
+  color: #9DB2B0;
+}
+
 .toggle h2, .expand-collapse span {
   cursor: pointer;
 }
