@@ -246,4 +246,5 @@ nav#calendarnav ul li a {
 
 body div.container #calendarnav-sticky-wrapper{
   height: 0 !important;
+  margin-bottom: -100% !important;
 }
