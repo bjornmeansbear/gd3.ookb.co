@@ -222,9 +222,9 @@ nav#maintop ul.expand-collapse li span:hover {
 nav#calendarnav {
   position: absolute;
   top: 50px;
-  left: 0;
+  left: -110px;
   text-align: right;
-  width: 50px;
+  width: 100px;
   z-index: 2;
 }
 
