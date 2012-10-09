@@ -214,3 +214,10 @@ nav ul.expand-collapse li span:hover {
   color: white;
   background: #EC4079;
   }
+  
+/* WEEK BY WEEK NAVIGATION */
+nav#calendar {
+  position: absolute;
+  top:20px;
+  left: 0;
+}
