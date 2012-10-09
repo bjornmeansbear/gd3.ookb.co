@@ -219,7 +219,7 @@ nav#maintop ul.expand-collapse li span:hover {
   }
   
 /* WEEK BY WEEK NAVIGATION */
-body div.container #calendarnav-sticky-wrapper{
+body div.container #calendarnav-sticky-wrapper {
   float: left;
   margin-left: -130px;
 }
