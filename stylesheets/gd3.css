@@ -1,5 +1,6 @@
 
 body {
+  position: relative;
   border-top: 30px solid #848478;
 }
 
@@ -218,8 +219,16 @@ nav ul.expand-collapse li span:hover {
 /* WEEK BY WEEK NAVIGATION */
 nav#calendar {
   position: absolute;
-  top:40px;
+  top: 50px;
   left: 0;
   text-align: right;
   width: 50px;
+}
+
+nav#calendar ul,
+nav#calendar ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
 }
