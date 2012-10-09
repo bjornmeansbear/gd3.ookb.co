@@ -220,7 +220,7 @@ nav#maintop ul.expand-collapse li span:hover {
   
 /* WEEK BY WEEK NAVIGATION */
 nav#calendarnav {
-  position: absolute;
+  position: fixed;
   top: 50px;
   left: -110px;
   text-align: right;
@@ -234,4 +234,8 @@ nav#calendarnav ul li {
   margin: 0;
   padding: 0;
   text-align: right;
+}
+
+nav#calendarnav ul li {
+  padding: 5px;
 }
