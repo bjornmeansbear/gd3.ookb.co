@@ -4,6 +4,8 @@ body {
   border-top: 30px solid #848478;
 }
 
+.container {position: relative;}
+
 .add-top {
   margin-top: 40px;
 }
