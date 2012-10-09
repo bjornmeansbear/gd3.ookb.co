@@ -225,7 +225,7 @@ nav#calendar {
   left: 0;
   text-align: right;
   width: 50px;
-  z-index: 2
+  z-index: 2;
 }
 
 nav#calendar ul,
