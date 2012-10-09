@@ -237,5 +237,10 @@ nav#calendarnav ul li {
 }
 
 nav#calendarnav ul li {
-  padding: 5px;
+  margin: 2.5px 0;
+}
+
+nav#calendarnav ul li a { 
+  display: block;
+  padding: 1px 2px;
 }
