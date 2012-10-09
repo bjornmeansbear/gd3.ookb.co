@@ -617,7 +617,15 @@
   ================================================== -->
   <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
   <script src="javascripts/tabs.js"></script>
-
+  <script src="javascripts/sticky.js/jquery.sticky.js"></script>
+  
+  <!-- set calendar navigation to "stick" -->
+  <script>
+  $(document).ready(function(){
+    $("#calendarnav").sticky({topSpacing:50});
+  });
+  </script>
+  
   <!-- Toggle Sections Open/Closed -->
   <script>
     $(document).ready(function() {
