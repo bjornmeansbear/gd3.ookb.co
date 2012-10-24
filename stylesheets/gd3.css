@@ -247,3 +247,54 @@ nav#calendarnav ul li a {
   display: block;
   padding: 1px 2px;
 }
+
+
+
+
+/**********************************/
+/* Google Form Styles */
+/**********************************/
+form#ss-form textarea {
+  width: 100%;
+}
+
+div.ss-required-asterisk p {
+  color: #EC4079;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+div.ss-item-required span.ss-required-asterisk { color: #EC4079; }
+
+form#ss-form label {
+  margin-bottom: 6px;
+}
+
+li.ss-choice-item {
+  margin-bottom: 6px;
+  margin-left: 30px;
+}
+
+.ss-choice-item label,
+.ss-choice-label {
+  display: inline-block; 
+  font-size: 110%; 
+  text-indent: -30px; 
+}
+
+.ss-choice-item input.ss-q-other {
+  display: inline-block;
+  margin: 0 0 0 12px; 
+  padding: 0; 
+}
+
+.ss-q-radio { 
+  margin-right: 12px; 
+}
+
+.other {
+  margin-left: -27px;
+  margin-right: 40px;
+}
+
+
